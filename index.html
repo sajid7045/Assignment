@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        .navbar{
+            background-color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 10px auto;
+        }
+        li{
+           list-style: none;
+           display: inline-block; 
+
+        }
+        li > a{
+            color: black;
+            font-size: 20px;
+            margin-left: 60px;
+            font-style: bold;
+        }
+
+        .main{
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: antiquewhite;
+            height: 80vh;
+        }
+        .maindiv{
+            display: flex;
+            align-items:center ;
+            justify-content: space-between;
+        }
+        .maindiv div h1{
+            width: 30vw;
+            margin: 10px 0 0 150px;
+            font-size: 50px;
+        }
+        .maindiv div p{
+            width: 30vw;
+            font-size: 20px;
+            margin: 10px 0 0 150px ;
+        }
+    
+        .photo{
+            margin-top: 50%;
+            height: 500px;
+            margin: 10px 150px 0 0;
+        }
+        footer
+        {
+            padding: 40px 20px;
+            color: white;
+            background: black;
+            text-align: center;
+        }
+        
+    </style>
+    <title>First Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div><marquee><a href="#" class="logo">Fronted Website</a></marquee></div>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="maindiv">
+            <div>
+            <h1>Become a better frontend developer.</h1>
+            <p>Take your frontend skills to the next level by recreating real websites from real companies.</p>
+            <p>The perfect type of practice for developers of all skill levels. Are you up for the challenge?</p>
+        </div>
+        <div>
+            <img src="photo.png" class="photo">
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h3>Frontend Practice - © 2024</h3>
+        </div>
+    </footer>
+</body>
+</html>
